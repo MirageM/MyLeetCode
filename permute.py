@@ -12,4 +12,4 @@ class Solution(object):
                 recursive(num[:i] + num[i+1:], perm + [num[i]], res)
             return res
         return recursive(nums)
-
+    
