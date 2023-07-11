@@ -10,6 +10,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+# Time Complexity: O(nlogn) Space Complexity: O(logn)
 class Solution(object):
     def sortedListToBST(self, head):
         """
