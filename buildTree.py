@@ -11,4 +11,5 @@ class Solution(object):
         :type inorder: List[int]
         :rtype: TreeNode
         """
-        
+        if inorder:
+            ind = inorder.index(preorder[ind])
