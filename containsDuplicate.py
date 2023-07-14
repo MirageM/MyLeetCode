@@ -5,11 +5,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        i = 0
-        for j in range(1, len(nums)):
-            if nums[i] == nums[j]:
+        hashset = set()
+        for num in nums:
+            if num in hashset:
                 return True
-            i += 1
-            if nums[0] == nums[len(nums)-1]:
-                return True
-        return False
+            else:
+                hashset.add(num)
