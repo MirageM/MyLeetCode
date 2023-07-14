@@ -1,4 +1,5 @@
 # LeetCode Problem: 217. Contains Duplicate
+# Time Complexity: O(n) Space Complexity: O(n)
 class Solution(object):
     def containsDuplicate(self, nums):
         """
