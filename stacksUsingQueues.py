@@ -1,4 +1,5 @@
 # LeetCode 225. Implement Stack using Queues
+# Time Complexity: O(n) Space Complexity: O(n)
 # Left to Right (Stack)
 class MyStack(object):
 
