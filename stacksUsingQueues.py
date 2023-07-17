@@ -1,9 +1,9 @@
+# LeetCode 225. Implement Stack using Queues
 # Left to Right (Stack)
 class MyStack(object):
 
     def __init__(self):
         self.queue = collections.deque()
-        
         
 
     def push(self, x):
@@ -13,16 +13,16 @@ class MyStack(object):
         """
         q = self.queue
         q.append(x)
-        for i in range(len(q)-1):
+        for i in range(len(q) - 1):
             q.append(q.popleft())
         
         
+
     def pop(self):
         """
         :rtype: int
         """
         return self.queue.popleft()
-        
         
 
     def top(self):
@@ -31,14 +31,12 @@ class MyStack(object):
         """
         return self.queue[0]
         
-        
 
     def empty(self):
         """
         :rtype: bool
         """
         return len(self.queue) == 0
-        
         
 
 
