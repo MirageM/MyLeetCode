@@ -1,3 +1,4 @@
+# LeetCode Problem 283. Move Zeroes
 class Solution(object):
     def moveZeroes(self, nums):
         """
@@ -6,10 +7,9 @@ class Solution(object):
         """
         if 0 not in nums:
             return nums
+
         zero = 0
         for i in range(len(nums)):
             if nums[i] != 0:
-                nums[i], nums[zero] = nums[zero], nums[i]
+                nums[zero], nums[i] = nums[i], nums[zero]
                 zero += 1
-
-    
