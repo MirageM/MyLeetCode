@@ -1,6 +1,10 @@
 class Solution(object):
     def isAnagram(self, s, t):
-        for i in range(len(s)):
-            if s[i] not in t:
-                return False
-        return True
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        one = Counter(s)
+        two = Counter(t)
+        return one == two
