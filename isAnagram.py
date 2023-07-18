@@ -1,4 +1,5 @@
 # LeetCode Problem 242. Valid Anagram
+# Time Complexity: O(n) Space Complexity: O(n)
 class Solution(object):
     def isAnagram(self, s, t):
         """
