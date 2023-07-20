@@ -13,13 +13,14 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        r = n + 1
+        r = n 
         l = 1
-        while r >= l:
-            mid = l + (r - 1) // 2
+        while l <= r:
+            mid = (l + r) // 2
             if guess(mid) == 0:
                 return mid
             elif guess(mid) == -1:
                 r = mid - 1
-            elif guess(mid) == 1:
-                l = mid + 1
+            else:
+                l = mid + 1                
+       
