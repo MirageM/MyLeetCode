@@ -1,5 +1,4 @@
 # LeetCode Problem: 448. Find All Numbers Disappeared in an Array
-# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def findDisappearedNumbers(self, nums):
         """
@@ -8,14 +7,23 @@ class Solution(object):
         """
         for i in range(len(nums)):
             index = abs(nums[i]) - 1
-            nums[index] = - abs(nums[index])
+            nums[index] = -abs(nums[index])
 
         missing = []
         for i in range(len(nums)):
             if nums[i] > 0:
-                missing.append(i + 1)
+                missing.append(i+1)
         return missing
-                
+
+for i in range(len(nums)):
+    index = abs(nums[i]) - 1
+    nums[index] = - abs(nums[index])
+
+missing = []
+for i in range(len(nums)):
+    if nums[i] > 0:
+        missing.append(i + 1)
+return missing 
 
 
 
