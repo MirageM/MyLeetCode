@@ -1,4 +1,5 @@
 # Leetcode Problem: 389. Find the Difference
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def findTheDifference(self, s, t):
         """
