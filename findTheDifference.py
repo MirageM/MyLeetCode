@@ -5,3 +5,9 @@ class Solution(object):
         :type t: str
         :rtype: str
         """
+        c = 0
+        for cs in s:
+            c ^= ord(cs)
+        for ct in t:
+            c ^= ord(ct)
+        return chr(c)
