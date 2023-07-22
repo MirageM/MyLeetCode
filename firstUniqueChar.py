@@ -1,4 +1,5 @@
 # LeetCode: 387. First Unique Character in a String
+# Time Complexity: O(n) Space Complexity: O(n)
 class Solution(object):
     def firstUniqChar(self, s):
         """
