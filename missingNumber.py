@@ -1,4 +1,5 @@
 # Leetcode: 268. Missing Number
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def missingNumber(self, nums):
         """
