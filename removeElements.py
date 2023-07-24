@@ -1,4 +1,5 @@
 # LeetCode: 203. Remove Linked List Elements
+# Time Complexity: O(n) Space Complexity: O(1)
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, val=0, next=None):
