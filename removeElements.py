@@ -10,3 +10,12 @@ class Solution(object):
         :type val: int
         :rtype: ListNode
         """
+        dummy_head = ListNode(-1)
+        dummy_head.next = head
+        current_head = dummy_head
+        while current_head.next != None:
+            if current_head.next.val == val:
+                current_head.next = current_head.next.next
+            else:
+                current_head = current_head.next
+        return dummy_head.next
