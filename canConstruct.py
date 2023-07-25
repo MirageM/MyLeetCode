@@ -1,4 +1,5 @@
 # Leetcode 383. Ransom Note
+# Time Complexity: O(n) Space Complexity: O(n)
 class Solution(object):
     def canConstruct(self, ransomNote, magazine):
         """
