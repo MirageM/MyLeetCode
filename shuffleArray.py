@@ -11,6 +11,8 @@ class Solution(object):
         """
         :rtype: List[int]
         """
+        self.nums = list(self.original)
+        return self.nums
 
 
     def shuffle(self):
