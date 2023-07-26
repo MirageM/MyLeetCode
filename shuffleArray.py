@@ -4,6 +4,8 @@ class Solution(object):
         """
         :type nums: List[int]
         """
+        self.nums = nums
+        self.original = list(nums)
 
     def reset(self):
         """
