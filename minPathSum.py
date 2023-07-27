@@ -1,4 +1,5 @@
 # Leetcode 64: Minimum Path Sum
+# Time Complexity: O(m*n) Space Complexity: O(1)
 class Solution(object):
     def minPathSum(self, grid):
         """
