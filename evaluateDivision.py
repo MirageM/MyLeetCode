@@ -1,4 +1,5 @@
 # Leetcode Problem 399. Evaluate Division
+# Time Complexity: O(n^2) Space Complexity: O(n)
 class Solution(object):
 
     def answer(self, current, end, scalar):
