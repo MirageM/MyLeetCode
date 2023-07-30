@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/maximizing-xor/problem
+# Maximizing XOR
 def getMaxXor(n):
 	num_bits = len(bin(n)) - 2
 	max_xor = (1 << num_bits) - 1
