@@ -1,6 +1,6 @@
 # Dominating XOR
 '''
-For an arry arr of n positive integers, count the unordered
+For an array arr of n positive integers, count the unordered
 pairs (i, j) (0 <= i < j < n) where arr[i] XOR arr[j] > arr[i] AND
 arr[j]. XOR denotes the bitwise XOR operation and AND
 denotes the bitwise AND operation.
