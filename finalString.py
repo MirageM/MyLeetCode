@@ -1,4 +1,5 @@
 # Leetcode Problem 2810: Faulty Keyboard
+# Time Complexity: O(n) Space Complexity: O(n)
 class Solution(object):
     def finalString(self, s):
         """
