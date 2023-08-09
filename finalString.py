@@ -1,3 +1,4 @@
+# Leetcode Problem 2810: Faulty Keyboard
 class Solution(object):
     def finalString(self, s):
         """
