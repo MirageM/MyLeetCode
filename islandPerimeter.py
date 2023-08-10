@@ -1,4 +1,5 @@
 # Leetcode Problem 463. Island Perimeter
+# Time Complexity: O(n^2) Space Complexity: O(1)
 class Solution(object):
     def islandPerimeter(self, grid):
         """
