@@ -1,4 +1,5 @@
 # Leetcode 2769: The Maximum Achievable X
+# Time Complexity: O(1) Space Complexity: O(1)
 class Solution(object):
     def theMaximumAchievableX(self, num, t):
         """
