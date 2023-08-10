@@ -1,3 +1,4 @@
+# Leetcode Problem 2778: Sum of Squares
 class Solution(object):
     def sumOfSquares(self, nums):
         """
