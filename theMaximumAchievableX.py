@@ -1,3 +1,4 @@
+# Leetcode 2769: The Maximum Achievable X
 class Solution(object):
     def theMaximumAchievableX(self, num, t):
         """
