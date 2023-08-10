@@ -1,4 +1,5 @@
 # Leetcode Problem 2778: Sum of Squares
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def sumOfSquares(self, nums):
         """
