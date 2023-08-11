@@ -5,3 +5,4 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+        return max(nums)*k + k*(k-1)/2
