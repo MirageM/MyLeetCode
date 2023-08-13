@@ -1,4 +1,5 @@
 # Leetcode Problem 2558. Take Gifts From The Richest Pile
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def pickGifts(self, gifts, k):
         """
