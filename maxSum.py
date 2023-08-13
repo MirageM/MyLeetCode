@@ -1,3 +1,4 @@
+# Leetcode Problem 2815: Max Pair Sum in an Array
 class Solution(object):
     def maxSum(self, nums):
         """
