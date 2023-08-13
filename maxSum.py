@@ -1,4 +1,5 @@
 # Leetcode Problem 2815: Max Pair Sum in an Array
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def maxSum(self, nums):
         """
