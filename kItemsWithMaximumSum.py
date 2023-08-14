@@ -7,3 +7,5 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+        a = 2 * numOnes + numZeros - k
+        return min(k, numOnes, a)
