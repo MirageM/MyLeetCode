@@ -1,4 +1,5 @@
 # Leetcode Problem 2566. Maximum Difference by Remapping a Digit
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def minMaxDifference(self, num):
         """
