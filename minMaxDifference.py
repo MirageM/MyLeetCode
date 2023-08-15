@@ -1,3 +1,4 @@
+# Leetcode Problem 2566. Maximum Difference by Remapping a Digit
 class Solution(object):
     def minMaxDifference(self, num):
         """
@@ -14,5 +15,3 @@ class Solution(object):
         min1 = num1.replace(num1[0], '0')
         c, d = int(max1), int(min1)
         return c - d
-
-
