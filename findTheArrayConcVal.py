@@ -1,4 +1,5 @@
 # Leetcode Problem 2562: Find the Array Concatenation Value
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def findTheArrayConcVal(self, nums):
         """
