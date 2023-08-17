@@ -1,4 +1,5 @@
 # Leetcode Problem 2570: Merge Two 2D Arrays by Summing Values
+# Time Complexity: O(n) Space Complexity: O(n)
 class Solution(object):
     def mergeArrays(self, nums1, nums2):
         """
