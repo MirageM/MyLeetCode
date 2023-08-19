@@ -1,4 +1,5 @@
 # Leetcode Problem 2529: Maximum Count of Postive Integer and Negative Integer
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def maximumCount(self, nums):
         """
