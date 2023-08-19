@@ -1,4 +1,5 @@
 # Leetcode Problem 2574: Left and Right Sum Differences
+# Time Complexity: O(n) Space Complexiy: O(n)
 class Solution(object):
     def leftRightDifference(self, nums):
         """
