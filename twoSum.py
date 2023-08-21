@@ -1,4 +1,5 @@
 # Leetcode Problem 1: Two Sum
+# Time Complexity: O(n^2) Space Complexity: O(1)
 class Solution(object):
     def twoSum(self, nums, target):
         """
