@@ -1,4 +1,5 @@
 # Leetcode Problem 2824: Count Pairs Whose Sum is Less than Target
+# Time Complexity: O(nlogn) Space Complexity: O(1)
 class Solution(object):
     def countPairs(self, nums, target):
         """
