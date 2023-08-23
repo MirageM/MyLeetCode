@@ -1,3 +1,4 @@
+# Leetcode Problem 2824: Count Pairs Whose Sum is Less than Target
 class Solution(object):
     def countPairs(self, nums, target):
         """
