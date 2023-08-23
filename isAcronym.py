@@ -5,3 +5,7 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+        ans = ""
+        for word in words:
+            ans += word[0]
+        return ans == s
