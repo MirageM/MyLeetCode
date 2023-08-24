@@ -1,4 +1,5 @@
 # Leetcode Problem 1207: Unique Number of Occurrences
+# Time Complexity: O(n^2) Space Complexity: O(1)
 class Solution(object):
     def uniqueOccurrences(self, arr):
         """
