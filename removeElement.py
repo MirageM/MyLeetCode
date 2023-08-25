@@ -1,4 +1,5 @@
 # Leetcode Problem 27: Remove Element
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def removeElement(self, nums, val):
         """
