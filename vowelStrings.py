@@ -1,4 +1,5 @@
 # Leetcode Problem 2586. Count the Number of Vowel Strings in Range
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution(object):
     def vowelStrings(self, words, left, right):
         """
