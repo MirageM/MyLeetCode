@@ -1,3 +1,4 @@
+# Leetcode Problem 2578: Split With Mimimum Sum
 from queue import PriorityQueue
 
 class Solution(object):
