@@ -1,4 +1,5 @@
 # Leetcode Problem 2578: Split With Mimimum Sum
+# Time Complexity: O(nlogn) Space Complexity: O(n)
 from queue import PriorityQueue
 
 class Solution(object):
