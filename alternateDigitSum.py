@@ -1,4 +1,5 @@
 # Leetcode Problem 2544: Alternating Digit Sum
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution:
     def alternateDigitSum(self, n: int) -> int:
         count = 0
