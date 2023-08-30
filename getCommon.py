@@ -1,4 +1,5 @@
 # Leetcode Problem 2540: Minimum Common Value
+# Time Complexity: O(n) Space Complexity: O(1)
 class Solution:
     def getCommon(self, nums1: List[int], nums2: List[int]) -> int:
         while len(nums1) > 0 and len(nums2) > 0:
